@@ -9,15 +9,17 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
 
     <link rel="stylesheet" href="../base.css" />
+    <link rel="stylesheet" href="contacto.css">
+    <script src="contacto.js"></script>
 
     <title>Contacto</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light gris">
         <div class="container-fluid">
             <div class="navbar-brand">
-                <img src="../imagenes/icono.jpg" alt="" width="40" height="40" class="d-inline-block align-text-top" />
+                <img src="../imagenes/icono.png" alt="" width="40" height="40" class="d-inline-block align-text-top" />
             </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,7 +27,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link" href="../index.html">Home</a>
+                    <a class="nav-link" href="../index.html">Inicio</a>
                     <a class="nav-link" href="../nosotros/nosotros.html">Nosotros</a>
                     <a class="nav-link" href="../servicios/servicios.html">Servicios</a>
                     <a class="nav-link active" aria-current="page" href="../contacto/contacto.html">Contacto</a>
@@ -34,15 +36,38 @@
         </div>
     </nav>
 
-    <div class="contenido"></div>
+    <div class="contenido">
+        <h1>Contacto</h1><br>
+        <div class="contenedor_formulario row gris">
+            <form class="formulario col-xxl-6 row" id="formulario_contacto">
+                <label for="input_nombre" class="col-md-3">Nombre:</label>
+                <input type="text" class="col-md-9" id="input_nombre" required>
 
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top bg-light">
+                <label for="input_correo" class="col-md-3">Correo:</label>
+                <input type="email" class="col-md-9" id="input_correo" required>
+
+                <label for="input_telefono" class="col-md-3">Telefono</label>
+                <input type="text" class="col-md-9" id="input_telefono" required>
+
+                <label for="input_mensaje" class="col-md-3">Mensaje</label>
+                <textarea class="col-md-9" id="input_mensaje" cols="40" rows="5"></textarea>
+
+                <button type="submit" class="col-2" id="boton_enviar">Enviar</button>
+
+            </form>
+            <div class="imagen_formulario col-xxl-6">
+                <img src="../imagenes/icono.png">
+            </div>
+        </div>
+    </div>
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top gris">
         <p class="col-md-4 mb-0 text-muted">
             © 2022 Sennheiser electronic GmbH & Co. KG | USA
         </p>
         <a href="../index.html"
             class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-            <img src="../imagenes/icono.jpg" width="40" height="40" />
+            <img src="../imagenes/icono.png" width="40" height="40" />
         </a>
         <p class="col-md-4 mb-0">Una pagina hecha por Juan Camilo Merchan</p>
     </footer>

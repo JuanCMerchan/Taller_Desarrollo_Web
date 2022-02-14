@@ -1,0 +1,80 @@
+.contenido
+{
+    padding-left: 6%;
+    padding-right: 6%;
+    display: flex;
+}
+
+.elementos_servicios
+{
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 600px;
+    width: 100%;
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+    vertical-align: middle;
+}
+
+.elemento_servicios
+{
+    height: 600px;
+    width: 330px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0%;
+}
+
+.contenedor_titulo
+{
+    width: 100%;
+    height: 55%;
+    margin: 0%;
+    position: relative;
+    overflow: auto;
+}
+
+.titulo_subtitulo
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+}
+
+.titulo_elemento
+{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.lista_servicios
+{
+    margin-top: 15px;
+    font-weight: 600;
+    list-style-type: none;
+}
+
+.lista_servicios li
+{
+    margin-bottom: 5px;
+}
+
+#audifonos > .contenedor_titulo
+{
+    background-image: url("../imagenes/fondo_audifonos.webp");
+    background-size: 100%;
+}
+
+#audio_profesional > .contenedor_titulo
+{
+    background-image: url("../imagenes/fondo_audio_profesional.webp");
+    background-size: 100%;
+}
+
+#soluciones_negocio > .contenedor_titulo
+{
+    background-image: url("../imagenes/fondo_soluciones_negocio.webp");
+    background-size: 100%;
+}

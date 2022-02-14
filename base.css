@@ -1,3 +1,8 @@
+:root
+{
+    --gris: #ebebeb;
+}
+
 html
 {
     height: 100%;
@@ -27,11 +32,18 @@ footer
     border-left: 1px solid;
     border-right: 1px solid;
     border-color: #dee2e6;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 4rem;
-    padding-bottom: 1rem;
+    padding-top: 6rem;
+    padding-bottom: 2rem;
     flex-grow: 1;
+}
+
+.contenido > *
+{
+    padding-right: 13%;
+    padding-left: 13%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
 }
 
 nav
@@ -40,9 +52,15 @@ nav
     width: 100%;
     border-bottom: 1px solid;
     border-color: #dee2e6;
+    z-index: 1;
 }
 
 .navbar
 {
     position: fixed;
+}
+
+.gris
+{
+    background-color: var(--gris) !important;
 }

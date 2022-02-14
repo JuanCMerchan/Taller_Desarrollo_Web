@@ -1,9 +1,12 @@
 .elemento_index
 {
-    border-radius: 10px;
+    width: 60%;
+    
     padding: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .boton_elemento
@@ -21,6 +24,7 @@
     margin-left: auto;
     margin-right: auto;
     color: black;
+    margin-top: 20px;
     font-weight: bold;
 }
 
@@ -32,13 +36,15 @@
     display: block; 
     margin-top: 40px;
     margin-bottom: 20px;
-    
     border-radius: 10px;
 }
 
 .descripcion_elemento
 {
+    margin-left: auto;
+    margin-right: auto;
     font-size: 24px;
     padding-left: 10%;
     padding-right: 10%;
+    width: 90%;
 }

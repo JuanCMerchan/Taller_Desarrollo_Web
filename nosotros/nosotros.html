@@ -9,15 +9,16 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
 
     <link rel="stylesheet" href="../base.css" />
+    <link rel="stylesheet" href="nosotros.css">
 
-    <title>Contacto</title>
+    <title>Nosotros</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light gris">
         <div class="container-fluid">
             <div class="navbar-brand">
-                <img src="../imagenes/icono.jpg" alt="" width="40" height="40" class="d-inline-block align-text-top" />
+                <img src="../imagenes/icono.png" alt="" width="40" height="40" class="d-inline-block align-text-top" />
             </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,7 +26,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link" href="../index.html">Home</a>
+                    <a class="nav-link" href="../index.html">Inicio</a>
                     <a class="nav-link active" aria-current="page" href="../nosotros/nosotros.html">Nosotros</a>
                     <a class="nav-link" href="../servicios/servicios.html">Servicios</a>
                     <a class="nav-link" href="../contacto/contacto.html">Contacto</a>
@@ -34,15 +35,43 @@
         </div>
     </nav>
 
-    <div class="contenido"></div>
+    <div class="contenido">
+        <div class="elemento_nosotros gris" id="vision">
+            <h2 class="titulo_elemento">Vision</h2>
+            <div class="contenido_elemento row align-items-center">
+                <p class="descripcion_elemento col-xxl-6">
+                    En sennheiser la vision que uno a nuestros empleados y socios a nivel mundial es moldear el futuro
+                    del audio y crear experiencias de sonido para nuestros clientes. Nosotros creamos impacto emocional
+                    a traves de la innovacion tecnica. Para hacer esto, estamos constantemente empujando los limites de
+                    lo que es posible, jamas quedandonos quietos. Al diseñar audio que nuestros clientes pueden no solo
+                    escuchar, pero sentir, estamos llendo mas alla de la confiabilidad de nuestros productos y asi
+                    estamos creando experiencias de audio unicas para el futuro.
+                </p>
+                <img src="../imagenes/vision.jpg" class="imagen_elemento col-xxl-6">
+            </div>
+        </div>
+        <div class="elemento_nosotros gris" id="mision">
+            <h2 class="titulo_elemento">Mision</h2>
+            <div class="contenido_elemento row align-items-center">
+                <p class="descripcion_elemento container-md col-xxl-6">
+                    En Sennheiser nos enfocamos en crear dispositivos de audio que lleven a nuestros clientes a una
+                    nueva dimension. Para poder en realidad disfrutar de una experiencia de audio, nosotros sabemos que
+                    primero que todo debemos poder confiar en nuestro equipo de audio. Por eso es que nos empeñamos en
+                    manufacturar productos de la mas alta calidad en los cuales podemos depender - en el escenario,
+                    cuando estamos escuchando musica y durante conferencias o reuniones.
+                </p>
+                <img src="../imagenes/mision.jpg" class="imagen_elemento col-xxl-6">
+            </div>
+        </div>
+    </div>
 
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top bg-light">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top gris">
         <p class="col-md-4 mb-0 text-muted">
             © 2022 Sennheiser electronic GmbH & Co. KG | USA
         </p>
         <a href="../index.html"
             class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-            <img src="../imagenes/icono.jpg" width="40" height="40" />
+            <img src="../imagenes/icono.png" width="40" height="40" />
         </a>
         <p class="col-md-4 mb-0">Una pagina hecha por Juan Camilo Merchan</p>
     </footer>
